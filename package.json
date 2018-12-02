@@ -1,0 +1,33 @@
+{
+  "name": "my-starter",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "lint": "eslint .",
+    "dev": "node --inspect app.js",
+    "build": "next build",
+    "start": "NODE_ENV=production node app.js"
+  },
+  "dependencies": {
+    "@material-ui/core": "^3.6.1",
+    "@material-ui/icons": "^3.0.1",
+    "@zeit/next-sass": "^1.0.1",
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "jss": "^9.8.7",
+    "next": "^7.0.2",
+    "node-sass": "^4.10.0",
+    "react": "^16.6.3",
+    "react-dom": "^16.6.3",
+    "react-jss": "^8.6.1"
+  },
+  "devDependencies": {
+    "babel-eslint": "^10.0.1",
+    "eslint": "^5.9.0",
+    "eslint-config-prettier": "^3.3.0",
+    "eslint-plugin-prettier": "^3.0.0",
+    "eslint-plugin-react": "^7.11.1",
+    "prettier": "^1.15.3"
+  }
+}
