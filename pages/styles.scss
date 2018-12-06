@@ -1,0 +1,36 @@
+html,
+body {
+  font-family: "Roboto", sans-serif;
+  padding: 20px;
+}
+
+.field-type {
+  display: block;
+  width: 300px;
+  margin-top: 20px;
+}
+
+.container {
+  display: flex;
+  background: #cfcfcf;
+  padding: 20px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  margin-left: 10px;
+
+  &__dent {
+    padding-left: 10px;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+  }
+
+  &__items {
+    display: flex;
+    flex-flow: column nowrap;
+    padding: 10px;
+    margin: 10px;
+  }
+}

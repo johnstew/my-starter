@@ -1,11 +1,5 @@
-import React from 'react';
+import './styles.scss';
 
-import Button from '../components/Button';
+import App from '../components/App';
 
-export default function index() {
-  return (
-    <div>
-      <Button />
-    </div>
-  );
-}
+export default App;

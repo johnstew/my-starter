@@ -25,7 +25,7 @@ class StarterApp extends App {
     return (
       <Container>
         <Head>
-          <title>Stat Dashboard</title>
+          <title>Idk</title>
         </Head>
         {/* Wrap every page in Jss and Theme providers */}
         <JssProvider registry={this.pageContext.sheetsRegistry} generateClassName={this.pageContext.generateClassName}>
